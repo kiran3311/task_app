@@ -1,0 +1,16 @@
+/* Default link styles */
+.sidebar_link {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    display: block;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Active link styles */
+  .active {
+    background-color: teal;
+    color: white;
+    font-weight: bold;
+  }
+  

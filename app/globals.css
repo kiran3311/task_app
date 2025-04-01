@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .sidebar_link {
+    @apply transition ease-in-out delay-150 border border-x-0 border-t-1 border-b-0 border-slate-100 py-1 px-2 hover:bg-gray-800 hover:text-black text-white 
+  }
+ 
+}
+
+
+input::-ms-reveal {
+  display: none;
+}
+
+ a, a:active {
+  color: white !important;
+  text-decoration: none !important;
+  
+}
+
+
